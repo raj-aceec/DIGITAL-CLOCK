@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: cursive;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #060a1f;
+}
+.clock h2{
+    color:#fff;
+    text-align: center;
+    font-size: 0.9em;
+    letter-spacing:0.2em ;
+    display: block;
+    margin: 10px 0;
+    font-weight: bolder;
+    text-transform: uppercase;
+
+}
+.clock time{
+    display: flex;
+}
+.clock time div{
+    position: relative;
+    margin: 0 5px;
+
+}
+.clock div span{
+    position: relative;
+    background: #2196f3;
+
+}
